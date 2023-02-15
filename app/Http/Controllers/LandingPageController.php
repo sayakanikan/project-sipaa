@@ -8,7 +8,13 @@ class LandingPageController extends Controller
 {
     public function index(){
         return view('landing/content/index', [
-            'title' => 'Home',
+            'title' => 'Beranda',
+        ]);
+    }
+
+    public function berita(){
+        return view('landing/content/berita', [
+            'title' => 'Berita',
         ]);
     }
 

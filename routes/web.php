@@ -16,6 +16,7 @@ use App\Http\Controllers\LandingPageController;
 
 Route::middleware(['guest'])->group(function () {
   Route::get('/', [LandingPageController::class, 'index']);
+  Route::get('/berita', [LandingPageController::class, 'berita']);
   
   Route::get('/aduan', [LandingPageController::class, 'aduan']);
   Route::get('/prosedur', [LandingPageController::class, 'prosedur']);

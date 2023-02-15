@@ -1,6 +1,6 @@
 @extends('landing/layout/main')
 @section('content')
-  <div class="d-flex justify-content-between align-content-center">
+  <div class="d-flex justify-content-between align-content-center mb-2">
     <h5 class="my-auto">Data yang tersimpan telah terjamin kerahasiaanya.</h5>
     <a href="/prosedur" class="btn my-auto d-flex">
       <img src="assets/images/landing/prosedur.png" width="25px" height="25px" alt="Tanda tanya">
