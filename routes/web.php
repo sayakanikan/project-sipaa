@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingPageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::middleware(['guest'])->group(function () {
+  Route::get('/', [LandingPageController::class, 'index']);
+  
+  Route::get('/aduan', [LandingPageController::class, 'aduan']);
+  Route::get('/prosedur', [LandingPageController::class, 'prosedur']);
+  
+  Route::get('/about', [LandingPageController::class, 'about']);
+  
+  Route::get('/faq', [LandingPageController::class, 'faq']);
 });
