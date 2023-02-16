@@ -1,5 +1,6 @@
 @extends('landing/layout/main')
 @section('content')
+<div class="container mt-3 mb-5">
   <h2 class="text-center mx-5">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</h2>
   <p class="text-muted text-center">Kabupaten Banyumas | 27 Juli 2022</p>
   <div class="d-flex mb-4">
@@ -21,13 +22,15 @@
     Bersamaan dengan acara tersebut, Provinsi Jawa Tengah juga mendapatkan predikat Provinsi Layak Anak dari Kementerian Pemberdayaan Perempuan dan Perlindungan Anak (PPPA). Sertifikat dan trophy diserahkan secara daring oleh Menteri PPPA Bintang Puspayoga. Perlu diketahui, Jateng termasuk dalam delapan provinsi dari 34 provinsi di Indonesia yang menerima titel tersebut. Hal itu karena 35 kabupaten/kota di Jawa Tengah telah berpredikat sebagai kota layak anak. (Pd/Ul, Diskominfo Jateng)<br><br>
   </p>
 
-  <img src="./assets/images/landing/berita1.png" alt="Berita 1" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita2.png" alt="Berita 2" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita3.png" alt="Berita 3" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita4.png" alt="Berita 4" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita5.png" alt="Berita 5" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita6.png" alt="Berita 6" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita7.png" alt="Berita 7" class="mx-5 mb-3">
-  <img src="./assets/images/landing/berita8.png" alt="Berita 8" class="mx-5 mb-3">
-    
+  <div class="d-flex flex-column">
+    <img src="./assets/images/landing/berita1.png" alt="Berita 1" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita2.png" alt="Berita 2" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita3.png" alt="Berita 3" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita4.png" alt="Berita 4" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita5.png" alt="Berita 5" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita6.png" alt="Berita 6" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita7.png" alt="Berita 7" class="mx-5 mb-3">
+    <img src="./assets/images/landing/berita8.png" alt="Berita 8" class="mx-5 mb-3">
+  </div>
+</div>
 @endsection

@@ -1,5 +1,5 @@
 {{-- Navbar --}}
-<nav class="navbar sticky-top navbar-expand-lg me-4 bg-white">
+<nav class="navbar sticky-top navbar-expand-lg pe-4 bg-white">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><img src="./assets/images/logo.svg" width="250px" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

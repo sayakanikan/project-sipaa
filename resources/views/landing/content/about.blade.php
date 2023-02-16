@@ -1,5 +1,6 @@
 @extends('landing/layout/main')
 @section('content')
+<div class="container mt-3 mb-5">
   <div class="text-center mb-3">
     <h1>Tentang SIPAA</h1>
   </div>
@@ -27,4 +28,5 @@
       <li><b>Anti Kekerasan dan Anti Diskriminasi –</b> Bahwa, dalam proses berorganisasi, bernegosiasi dan bekerja, tidak akan terjadi tindakan-tindakan yang mengandung unsure kekerasan ataupun diskriminasi terhadap pihak mana pun.</li>
     </ol>
   </p>
+</div>
 @endsection
