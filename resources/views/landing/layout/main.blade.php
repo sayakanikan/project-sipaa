@@ -15,10 +15,20 @@
       .bg-aduan {
         background-color: #ADD0FF;
       }
+      .bg-prosedur {
+        background-color: #1976D2;
+      }
       .bg-footer{
         background-color: #7DB4FF;
       }
+      .activenav {
+        scale: 1.2;
+        font-weight: 700;
+        border-bottom: 1px solid #000;
+        padding-bottom: 1px;
+      }
     </style>
+    {!! ReCaptcha::htmlScriptTagJsApi() !!}
   </head>
   <body>
     @include('landing/layout/navbar')

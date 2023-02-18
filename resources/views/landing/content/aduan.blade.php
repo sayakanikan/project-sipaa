@@ -26,16 +26,16 @@
         <fieldset class="row mb-3">
           <legend class="col-form-label col-sm-5 pt-0">Pelapor adalah *</legend>
           <div class="col-sm-7 d-flex">
-            <div class="form-check me-4">
-              <input class="form-check-input" type="radio" name="wni" id="wni" value="option1" checked>
-              <label class="form-check-label" for="wni">
-                WNI
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked required>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Penduduk
               </label>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="penduduk" id="penduduk" value="option2">
-              <label class="form-check-label" for="penduduk">
-                Penduduk
+            <div class="form-check ms-4">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
+              <label class="form-check-label" for="flexRadioDefault2">
+                WNI
               </label>
             </div>
           </div>
@@ -123,6 +123,9 @@
         <label class="form-check-label" for="flexCheckDefault">
           Dengan mengisi form ini dan mengirimkan aduan, Anda telah menyetujui Ketentuan Layanan dan Kebijakan Privasi kami.
         </label>
+      </div>
+      <div class="form-group row">
+        <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
       </div>
       <div class="d-grid d-md-block gap-2">
         <button class="btn btn-primary px-4 fw-medium" type="submit">Submit</button>

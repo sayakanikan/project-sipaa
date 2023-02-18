@@ -14,14 +14,37 @@
     </div>
     <div class="col-md-7 position-relative">
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="d-flex">
-        <img src="./assets/images/landing/youtube.png" alt="Thumbnail" style="max-width: 100%; max-height: 100%;">
+        <img src="./assets/images/landing/youtube.png" alt="Thumbnail" class="mw-100 mh-100">
         <img src="./assets/images/landing/logoYtb.png" alt="Logo Youtube" class="position-absolute" style="left: 35vh; top: 15vh;">
       </a>
     </div>
   </div>
 
   {{-- Carousel --}}
-  Carousel
+  <div class="pt-3 mb-5">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/landing/carousel1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/landing/carousel2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
   {{-- Akhir dari Carousel --}}
 
   {{-- Prosedur Pengaduan --}}
@@ -33,7 +56,7 @@
       <p>Tulis aduan Anda dengan lengkap dan jelas pada bagian form daftar aduan pada web</p>
     </div>
     <div class="col-md-3 text-center">
-      <img src="./assets/images/landing/prosedur2_1.png" alt="Prosedur 2">
+      <img src="./assets/images/landing/prosedur2.png" alt="Prosedur 2">
       <h5 class="fw-semibold mt-2">Laporan Masuk</h5>
       <p>Aduan akan otomatis masuk dan diteruskan pada unit yang menangani</p>
     </div>

@@ -24,6 +24,17 @@ class LandingPageController extends Controller
         ]);
     }
 
+    // Captcha Validation
+    // protected function validator(array $data)
+    // {
+    //     return Validator::make($data, [
+    //         'name' => ['required', 'string', 'max:255'],
+    //         'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+    //         'password' => ['required', 'string', 'min:8', 'confirmed'],
+    //         'g-recaptcha-response' => 'recaptcha',
+    //     ]);
+    // }
+    
     public function prosedur(){
         return view('landing/content/prosedur', [
             'title' => 'Prosedur Pengaduan',
