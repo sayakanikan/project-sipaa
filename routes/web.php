@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\LaporanController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\StatusTindakanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,13 +20,39 @@ use App\Http\Controllers\LandingPageController;
 */
 
 Route::middleware(['guest'])->group(function () {
-  Route::get('/', [LandingPageController::class, 'index']);
-  Route::get('/berita', [LandingPageController::class, 'berita']);
-  
-  Route::get('/aduan', [LandingPageController::class, 'aduan']);
-  Route::get('/prosedur', [LandingPageController::class, 'prosedur']);
-  
-  Route::get('/about', [LandingPageController::class, 'about']);
-  
-  Route::get('/faq', [LandingPageController::class, 'faq']);
+  // Landing Page
+  Route::controller(LandingPageController::class)->group(function () {
+    Route::get('/', 'index');
+    Route::get('/berita', 'berita');
+    
+    Route::get('/aduan', 'aduan');
+    Route::get('/prosedur', 'prosedur');
+    
+    Route::get('/about', 'about');
+    
+    Route::get('/faq', 'faq');
+  });
+
+  // Login Dashboard
+  Route::controller(AuthController::class)->group(function () {
+    Route::get('/login', 'index')->name('login');
+    Route::post('/authenticate', 'authenticate');
+  });
+});
+
+Route::middleware(['auth'])->group(function () {
+  // Logout
+  Route::post('/logout', [AuthController::class, 'logout']);
+
+  // Dashboard
+  Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+  // Laporan
+  Route::get('/laporan', [LaporanController::class, 'index']);
+
+  // Status Tindakan
+  Route::get('/tindakan', [StatusTindakanController::class, 'index']);
+
+  // Halaman Berita
+  Route::get('/berita', [BeritaController::class, 'index']);
 });
