@@ -33,6 +33,14 @@
       .bg-content {
         background: linear-gradient(0deg, #F0F3F1, #F0F3F1);
       }
+      .btn-lainya {
+        background-color: #7DB4FF;
+        border: none;
+      }
+      .btn-lainya:hover {
+        background-color: #73a2e4;
+      }
+
     </style>
   </head>
   <body>

@@ -1,7 +1,7 @@
 {{-- Sidebar --}}
 <div class="col-md-3 py-3 d-flex justify-content-center vh-100">
   <div class="w-100 px-3">
-    <img src="./assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="250px">
+    <img src="../../assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="250px">
     <hr class="border-4">
     <a href="/dashboard" class="{{ Request::is('dashboard*') ? 'active-sidebar' : '' }} px-4 py-3 mt-5 rounded-4 d-flex sidebarpage">
       <i class="bi bi-grid-3x3-gap-fill"></i>

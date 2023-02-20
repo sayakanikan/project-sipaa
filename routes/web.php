@@ -49,6 +49,7 @@ Route::middleware(['auth'])->group(function () {
 
   // Laporan
   Route::get('/laporan', [LaporanController::class, 'index']);
+  Route::get('/laporan/show', [LaporanController::class, 'show']);
 
   // Status Tindakan
   Route::get('/tindakan', [StatusTindakanController::class, 'index']);

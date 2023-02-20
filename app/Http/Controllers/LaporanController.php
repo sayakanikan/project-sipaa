@@ -11,4 +11,10 @@ class LaporanController extends Controller
             'title' => 'Laporan Masuk'
         ]);
     }
+
+    public function show(){
+        return view('dashboard/content/laporan/show', [
+            'title' => 'Detail Laporan'
+        ]);
+    }
 }
