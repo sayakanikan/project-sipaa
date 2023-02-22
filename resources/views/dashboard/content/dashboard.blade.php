@@ -5,38 +5,38 @@
   {{-- Totalan --}}
   <div class="row">
     <div class="col-md-4 d-flex align-items-center">
-      <div class="card border-0" >
+      <div class="card border-0" style="min-width: 270px">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Laporan Masuk</h6>
           <div class="d-flex justify-content-between">
             <h4 class="card-title">116 Kasus</h4>
-            <img src="./assets/images/admin/dashboard_laporan.png" alt="Icon laporan" class="position-absolute" style="right: 15px;">
+            <img src="./assets/images/admin/dashboard_laporan.png" alt="Icon laporan" class="position-absolute" style="right: 13px;">
           </div>
-          <p class="card-text fs-6">Jumlah kasus naik dari tahun kemarin</p>
+          <p class="card-text fs-6">Jumlah kasus naik dari <br> tahun kemarin</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 d-flex align-items-center">
-      <div class="card border-0" >
+      <div class="card border-0" style="min-width: 270px">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Status Tindakan Diterima</h6>
           <div class="d-flex justify-content-between">
             <h4 class="card-title">116 Kasus</h4>
-            <img src="./assets/images/admin/dashboard_diterima.png" alt="Icon Diterima" class="position-absolute" style="right: 15px;">
+            <img src="./assets/images/admin/dashboard_diterima.png" alt="Icon Diterima" class="position-absolute" style="right: 13px;">
           </div>
-          <p class="card-text fs-6">Jumlah kasus naik dari tahun kemarin</p>
+          <p class="card-text fs-6">Jumlah kasus naik dari <br> tahun kemarin</p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card border-0" >
+      <div class="card border-0" style="min-width: 270px">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Status Tindakan Ditolak</h6>
           <div class="d-flex justify-content-between">
             <h4 class="card-title">0 Kasus</h4>
-            <img src="./assets/images/admin/dashboard_ditolak.png" alt="Icon Ditolak" class="position-absolute" style="right: 15px;">
+            <img src="./assets/images/admin/dashboard_ditolak.png" alt="Icon Ditolak" class="position-absolute" style="right: 13px;">
           </div>
-          <p class="card-text fs-6">Jumlah kasus naik dari tahun kemarin</p>
+          <p class="card-text fs-6">Jumlah kasus naik dari <br> tahun kemarin</p>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@
   {{-- Grafik --}}
   <div class="row mt-4">
     <div class="col-md-12">
-      <div class="card border-0" >
+      <div class="card border-0 px-3 py-3" >
         <div class="card-body">
           <h5 class="card-title">Grafik Laporan Masuk</h5>
           <canvas id="sales-chart"></canvas>
@@ -57,7 +57,7 @@
   {{-- Laporan Masuk --}}
   <div class="row mt-4">
     <div class="col-md-12">
-      <div class="card border-0" >
+      <div class="card border-0 px-3 py-3" >
         <div class="card-body">
           <h5 class="card-title mb-3">Laporan Masuk</h5>
           <div class="table-responsive">
@@ -109,7 +109,7 @@
   {{-- Status Tindakan --}}
   <div class="row mt-4">
     <div class="col-md-12">
-      <div class="card border-0" >
+      <div class="card border-0 px-3 py-3" >
         <div class="card-body">
           <h5 class="card-title mb-3">Status Tindakan</h5>
           <div class="table-responsive">
@@ -130,7 +130,12 @@
                   <td>Pelecehan sepulang sekolah oleh tetangga sendiri </td>
                   <td>Gita Wardani, 15 th</td>
                   <td>Gilang</td>
-                  <td class="d-flex"><button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button> <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button></td>
+                  <td>
+                    <div class="d-flex align-items-center my-2">
+                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                    </div>
+                  </td>
                   <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
                 </tr>
                 <tr>
@@ -138,7 +143,12 @@
                   <td>KDRT yang sering didapatkan oleh suami korban sendiri</td>
                   <td>Gemilang P, 36 th</td>
                   <td>Sumina</td>
-                  <td class="d-flex"><button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button> <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button></td>
+                  <td>
+                    <div class="d-flex align-items-center my-2">
+                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                    </div>
+                  </td>
                   <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
                 </tr>
                 <tr>
@@ -146,7 +156,12 @@
                   <td>Pelecehan pada tanggal 22 oktober 2022 yang menyebabkan memar </td>
                   <td>Siti Ani, 24 th</td>
                   <td>Adhe Nuzula</td>
-                  <td class="d-flex"><button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button> <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button></td>
+                  <td>
+                    <div class="d-flex align-items-center my-2">
+                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                    </div>
+                  </td>
                   <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
                 </tr>
               </tbody>

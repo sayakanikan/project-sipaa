@@ -23,7 +23,7 @@ Route::middleware(['guest'])->group(function () {
   // Landing Page
   Route::controller(LandingPageController::class)->group(function () {
     Route::get('/', 'index');
-    Route::get('/berita', 'berita');
+    Route::get('/news', 'berita');
     
     Route::get('/aduan', 'aduan');
     Route::get('/prosedur', 'prosedur');
@@ -50,10 +50,14 @@ Route::middleware(['auth'])->group(function () {
   // Laporan
   Route::get('/laporan', [LaporanController::class, 'index']);
   Route::get('/laporan/show', [LaporanController::class, 'show']);
+  Route::get('/laporan/bukti', [LaporanController::class, 'bukti']);
 
   // Status Tindakan
   Route::get('/tindakan', [StatusTindakanController::class, 'index']);
+  Route::get('/tindakan/email', [StatusTindakanController::class, 'email']);
 
   // Halaman Berita
   Route::get('/berita', [BeritaController::class, 'index']);
+  Route::get('/berita/create', [BeritaController::class, 'create']);
+  Route::get('/berita/edit', [BeritaController::class, 'edit']);
 });

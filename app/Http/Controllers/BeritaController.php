@@ -11,4 +11,16 @@ class BeritaController extends Controller
             'title' => 'Berita'
         ]);
     }
+
+    public function create(){
+        return view('dashboard/content/berita/create', [
+            'title' => 'Tambah Berita'
+        ]);
+    }
+
+    public function edit(){
+        return view('dashboard/content/berita/edit', [
+            'title' => 'Edit Berita'
+        ]);
+    }
 }

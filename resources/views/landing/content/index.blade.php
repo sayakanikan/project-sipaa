@@ -10,7 +10,7 @@
       <h2>Jadilah Bagian dari <br> Pelindung Wanita dan Anak <br> <span class="text-primary">#PeduliWanitadanAnak</span></h2>
       <p class="fw-medium" style="text-align: justify">Hargai setiap pribadi yang ada dan lindungi orang di sekitar kita terutama wanita dan anak, karena kita semua berharga.</p>
       <p class="fw-medium" style="text-align: justify">Berani laporkan jika Anda atau orang disekitar Anda terindikasi mengalami kekerasan maupun pelecehan.</p>
-      <a href="/aduan" class="btn bg-footer fw-semibold text-dark rounded-pill px-5 mb-3">Laporkan</a>
+      <a href="/aduan" class="btn btn-blue fw-semibold text-dark rounded-pill px-5 mb-3">Laporkan</a>
     </div>
     <div class="col-md-7 position-relative">
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="d-flex">
@@ -83,7 +83,7 @@
           <p class="card-text text-muted mb-1">Kabupaten Banyumas | 27 Juli 2022</p>
           <h5 class="card-title mb-3">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”
           </h5>
-          <a href="/berita" class="btn bg-footer fw-medium px-4 rounded-pill">Selengkapnya</a>
+          <a href="/news" class="btn btn-blue fw-medium px-4 rounded-pill">Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@
           <p class="card-text text-muted mb-1">Kabupaten Banyumas | 27 Juli 2022</p>
           <h5 class="card-title mb-3">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”
           </h5>
-          <a href="/berita" class="btn bg-footer fw-medium px-4 rounded-pill">Selengkapnya</a>
+          <a href="/news" class="btn btn-blue fw-medium px-4 rounded-pill">Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -105,7 +105,7 @@
           <p class="card-text text-muted mb-1">Kabupaten Banyumas | 27 Juli 2022</p>
           <h5 class="card-title mb-3">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”
           </h5>
-          <a href="/berita" class="btn bg-footer fw-medium px-4 rounded-pill">Selengkapnya</a>
+          <a href="/news" class="btn btn-blue fw-medium px-4 rounded-pill">Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -118,7 +118,7 @@
           <p class="card-text text-muted mb-1">Kabupaten Banyumas | 27 Juli 2022</p>
           <h5 class="card-title mb-3">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”
           </h5>
-          <a href="/berita" class="btn bg-footer fw-medium px-4 rounded-pill">Selengkapnya</a>
+          <a href="/news" class="btn btn-blue fw-medium px-4 rounded-pill">Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -129,7 +129,7 @@
           <p class="card-text text-muted mb-1">Kabupaten Banyumas | 27 Juli 2022</p>
           <h5 class="card-title mb-3">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”
           </h5>
-          <a href="/berita" class="btn bg-footer fw-medium px-4 rounded-pill">Selengkapnya</a>
+          <a href="/news" class="btn btn-blue fw-medium px-4 rounded-pill">Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -140,7 +140,7 @@
           <p class="card-text text-muted mb-1">Kabupaten Banyumas | 27 Juli 2022</p>
           <h5 class="card-title mb-3">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”
           </h5>
-          <a href="/berita" class="btn bg-footer fw-medium px-4 rounded-pill">Selengkapnya</a>
+          <a href="/news" class="btn btn-blue fw-medium px-4 rounded-pill">Selengkapnya</a>
         </div>
       </div>
     </div>

@@ -21,11 +21,17 @@
       .bg-footer{
         background-color: #7DB4FF;
       }
+      .btn-blue {
+        background-color: #7DB4FF;
+      }
+      .btn-blue:hover {
+        background-color: #6c9cdf;
+      }
       .activenav {
-        scale: 1.2;
         font-weight: 700;
         border-bottom: 1px solid #000;
         padding-bottom: 1px;
+        max-width: 150px;
       }
     </style>
     {!! ReCaptcha::htmlScriptTagJsApi() !!}

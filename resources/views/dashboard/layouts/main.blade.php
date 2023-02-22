@@ -40,6 +40,13 @@
       .btn-lainya:hover {
         background-color: #73a2e4;
       }
+      .btn-hapus {
+        background-color: #B8B8B8;
+        border: none;
+      }
+      .btn-hapus:hover {
+        background-color: #8a8a8a;
+      }
 
     </style>
   </head>

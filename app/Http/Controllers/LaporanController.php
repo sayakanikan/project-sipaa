@@ -17,4 +17,10 @@ class LaporanController extends Controller
             'title' => 'Detail Laporan'
         ]);
     }
+
+    public function bukti(){
+        return view('dashboard/content/laporan/bukti', [
+            'title' => 'Bukti Laporan'
+        ]);
+    }
 }
