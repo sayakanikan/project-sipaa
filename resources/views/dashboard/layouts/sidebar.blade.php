@@ -1,7 +1,7 @@
 {{-- Sidebar --}}
 <div class="col-md-3 py-3 d-flex justify-content-center vh-100">
   <div class="w-100 px-3">
-    <img src="../../assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="250px">
+    <img src="../../assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="250px" class="mw-100">
     <hr class="border-4">
     <a href="/dashboard" class="{{ Request::is('dashboard*') ? 'active-sidebar' : '' }} px-4 py-3 mt-5 rounded-4 d-flex sidebarpage">
       <i class="bi bi-grid-3x3-gap-fill"></i>
@@ -19,5 +19,15 @@
       <i class="bi bi-newspaper"></i>
       <p class="mb-0 ms-3">Halaman Berita</p>
     </a>
+    <a type="button" class="px-4 py-3 mt-2 rounded-4 d-flex sidebarpage" onclick="logout()">
+      <i class="bi bi-power"></i>
+      <p class="mb-0 ms-3">Logout</p>
+    </a>
   </div>
 </div>
+<form action="/logout" method="POST" class="d-none" id="logout-form">@csrf</form>
+<script>
+function logout(){
+  document.getElementById('logout-form').submit();
+}
+</script>

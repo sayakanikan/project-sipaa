@@ -13,7 +13,7 @@
       <h5 class="fw-semibold mt-3 mx-auto">Tulis Aduan</h5>
     </div>
     <div class="col-md-8 d-flex">
-      <p class="fw-normal m-auto" style="text-align: justify;">Silahkan tulis aduan Anda mulai dari mengisi data diri korban dan pelapor dengan lengkap dan jelas pada bagian form daftar aduan pada web sampai notifikasi ‘SUBMIT BERHASIL” muncul</p>
+      <p class="fw-medium m-auto" style="text-align: justify;">Silahkan tulis aduan Anda mulai dari mengisi data diri korban dan pelapor dengan lengkap dan jelas pada bagian form daftar aduan pada web sampai notifikasi ‘SUBMIT BERHASIL” muncul</p>
     </div>
   </div>
   
@@ -25,7 +25,7 @@
       <h5 class="fw-semibold mt-3 mx-auto">Laporan Masuk</h5>
     </div>
     <div class="col-md-8 d-flex">
-      <p class="fw-normal m-auto" style="text-align: justify;">Aduan yang Anda Anda masukkan akan otomatis masuk dan diteruskan pada unit yang menangani. </p>
+      <p class="fw-medium m-auto" style="text-align: justify;">Aduan yang Anda Anda masukkan akan otomatis masuk dan diteruskan pada unit yang menangani. </p>
     </div>
   </div>
   
@@ -37,7 +37,7 @@
       <h5 class="fw-semibold mt-3 mx-auto">Proses Tindak Lanjut</h5>
     </div>
     <div class="col-md-8 d-flex">
-      <p class="fw-normal m-auto" style="text-align: justify;">AdDalam waktu cepat laporan akan ditindak lanjuti dan di proses. Tunggu unit yang menangani menghubungi Anda.</p>
+      <p class="fw-medium m-auto" style="text-align: justify;">AdDalam waktu cepat laporan akan ditindak lanjuti dan di proses. Tunggu unit yang menangani menghubungi Anda.</p>
     </div>
   </div>
   
@@ -49,7 +49,7 @@
       <h5 class="fw-semibold mt-3 mx-auto">Penanganan</h5>
     </div>
     <div class="col-md-8 d-flex">
-      <p class="fw-normal m-auto" style="text-align: justify;">Dilakukan penanganan yang sesuai pada korban dan kasus yang dialami sesuai prosedur yang ada.</p>
+      <p class="fw-medium m-auto" style="text-align: justify;">Dilakukan penanganan yang sesuai pada korban dan kasus yang dialami sesuai prosedur yang ada.</p>
     </div>
   </div>
 

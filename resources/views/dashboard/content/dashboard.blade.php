@@ -48,7 +48,7 @@
       <div class="card border-0 px-3 py-3" >
         <div class="card-body">
           <h5 class="card-title">Grafik Laporan Masuk</h5>
-          <canvas id="sales-chart"></canvas>
+          <canvas id="myChart"></canvas>
         </div>
       </div>
     </div>
@@ -173,77 +173,35 @@
     </div>
   </div>
 
-  <script>
-    if ($("#sales-chart").length) {
-      var SalesChartCanvas = $("#sales-chart").get(0).getContext("2d");
-      var SalesChart = new Chart(SalesChartCanvas, {
-        type: 'bar',
-        data: {
-          labels: ["Jul", "Agu", "Sep", "Okt", "Nov", 'Des'],
-          datasets: [{
-              label: 'Dokumen Ditambahkan',
-              data: [10, 20, 30, 50, 20, 10],
-              backgroundColor: '#98BDFF'
-            }
-          ]
-        },
-        options: {
-          cornerRadius: 5,
-          responsive: true,
-          maintainAspectRatio: true,
-          layout: {
-            padding: {
-              left: 0,
-              right: 0,
-              top: 20,
-              bottom: 0
-            }
-          },
-          scales: {
-            yAxes: [{
-              display: true,
-              gridLines: {
-                display: true,
-                drawBorder: false,
-                color: "#F2F2F2"
-              },
-              ticks: {
-                display: true,
-                min: 0,
-                max: 50,
-                callback: function(value, index, values) {
-                  return  value ;
-                },
-                autoSkip: true,
-                maxTicksLimit: 10,
-                fontColor:"#6C7383"
-              }
-            }],
-            xAxes: [{
-              stacked: false,
-              ticks: {
-                beginAtZero: true,
-                fontColor: "#6C7383"
-              },
-              gridLines: {
-                color: "rgba(0, 0, 0, 0)",
-                display: false
-              },
-              barPercentage: 1
-            }]
-          },
-          legend: {
-            display: false
-          },
-          elements: {
-            point: {
-              radius: 0
-            }
-          }
-        },
-      });
-      
-      document.getElementById('sales-legend').innerHTML = SalesChart.generateLegend();
-    }
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+<script type="text/javascript">
+  
+    var labels =  {{ Js::from($labels) }};
+    var users =  {{ Js::from($data) }};
+  
+    const data = {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Ags', 'Sep', 'Okt', 'Nov', 'Des'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: '#A6CEE3CC',
+            borderColor: '#A6CEE3CC',
+            data: [10, 15, 20, 24, 20, 15, 20, 14, 23, 18, 20, 13 ],
+            fill: true,
+        }]
+    };
+  
+    const config = {
+        type: 'line',
+        data: data,
+        options: {}
+    };
+  
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+  
+</script>
 @endsection

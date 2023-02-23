@@ -17,20 +17,11 @@
           </button>
         </div>
         <div class="line"></div>
-        <div class="ms-2">
-          <button type="button" class="btn btn-bell d-flex align-items-center" data-bs-container="body" data-bs-toggle="popover" data-bs-html = "true" data-bs-placement="bottom" data-bs-content="<a type='button' class='btn' onclick='logout()'>Logout</a>">
-            <img src="../../assets/images/admin/logoLogin.png" alt="Profile" width="35px" height="35px" class="me-2 rounded-pill">
-            <p class="my-auto fw-semibold">{{ auth()->user()->name }}</p>
-          </button>
+        <div class="mx-3 btn-bell d-flex align-items-center">
+          <img src="../../assets/images/admin/logoLogin.png" alt="Profile" width="35px" height="35px" class="me-2 rounded-pill">
+          <p class="my-auto fw-semibold">{{ auth()->user()->name }}</p>
         </div>
       </div>
     </div>
   </div>
 </nav>
-<form action="/logout" method="POST" class="d-none" id="logout-form">@csrf</form>
-<script>
-function logout(){
-  console.log('Logged out');
-  // document.getElementById('logout-form').submit();
-}
-</script>
