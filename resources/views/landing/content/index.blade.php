@@ -15,7 +15,7 @@
     <div class="col-md-7 position-relative">
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="d-flex">
         <img src="./assets/images/landing/youtube.png" alt="Thumbnail" class="mw-100 mh-100">
-        <img src="./assets/images/landing/logoYtb.png" alt="Logo Youtube" class="position-absolute" style="left: 40vh; top: 20vh;">
+        <img src="./assets/images/landing/logoYtb.png" alt="Logo Youtube" class="position-absolute" style="left: 50%; top: 50%; transform: translate(-50%, -50%);">
       </a>
     </div>
   </div>

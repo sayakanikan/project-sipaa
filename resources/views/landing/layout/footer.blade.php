@@ -1,5 +1,5 @@
 {{-- Footer --}}
-<footer class="bg-footer px-2 py-5 fw-medium" style="font-size: 15px;">
+<footer class="bg-footer px-3 py-5 fw-medium" style="font-size: 15px;">
   <div class="row">
     <div class="col-md-3 d-flex flex-column text-center my-auto">
       <img src="assets/images/landing/banyumas.png" alt="Logo Banyumas" width="100px" class="mx-auto mb-3">
@@ -25,7 +25,7 @@
       <p class="mb-1">uptdppabanyumas@gmail.com</p>
     </div>
     <div class="col-md-4 d-flex">
-      <img src="assets/images/landing/ibu.png" alt="Ibu Vector" style="max-width: 420px;" class="mw-100 my-auto">
+      <img src="assets/images/landing/ibu.png" alt="Ibu Vector" style="" class="mw-100 my-auto">
     </div>
   </div>
 </footer>

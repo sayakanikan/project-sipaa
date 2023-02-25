@@ -1,6 +1,6 @@
 @extends('landing/layout/main')
 @section('content')
-<div class="container mt-3 mb-5">
+<div class="container mt-3 mb-5 px-3">
   <div class="text-center mb-3">
     <h1>Tentang SIPAA</h1>
   </div>
