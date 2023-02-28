@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class DashboardController extends Controller
 {
+    // Halaman dashboard
     public function index(){
         $users = User::select(DB::raw("COUNT(*) as count"), DB::raw("MONTHNAME(created_at) as month_name"))
                     ->whereYear('created_at', date('Y'))

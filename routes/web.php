@@ -19,27 +19,35 @@ use App\Http\Controllers\StatusTindakanController;
 |
 */
 
+// Route yang bisa diakses tanpa login
 Route::middleware(['guest'])->group(function () {
-  // Landing Page
+  // Controller Landing Page
   Route::controller(LandingPageController::class)->group(function () {
+    // Halaman awal
     Route::get('/', 'index');
+    // Halaman berita
     Route::get('/news', 'berita');
     
+    // halaman aduan
     Route::get('/aduan', 'aduan');
+    // Halaman prosedur aduan
     Route::get('/prosedur', 'prosedur');
     
+    // Halaman tentang SIPAA
     Route::get('/about', 'about');
     
+    // Halaman FAQ
     Route::get('/faq', 'faq');
   });
 
-  // Login Dashboard
+  // Controller Login Dashboard
   Route::controller(AuthController::class)->group(function () {
     Route::get('/login', 'index')->name('login');
     Route::post('/authenticate', 'authenticate');
   });
 });
 
+// Route yang harus login untuk mengaksesnya
 Route::middleware(['auth'])->group(function () {
   // Logout
   Route::post('/logout', [AuthController::class, 'logout']);

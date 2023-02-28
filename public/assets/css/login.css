@@ -1,0 +1,48 @@
+.bg-main {
+  background-color: #ADD0FF;
+  overflow: hidden;
+  display: flex;
+}
+
+input.cekbox {
+  width: 40px;
+  height: 30px;
+  right: 0px;
+  opacity: 0;
+}
+
+.img-vector {
+  position: relative;
+  width: 50%; 
+  left: -30px;
+}
+
+.logo-login {
+  position: absolute;
+  width: 25%; 
+  left:2vw;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .bg-main {
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .img-vector {
+    display: none;
+  }
+
+  .logo-login {
+    width: 50%;
+    position: relative;
+    left: 0;
+    margin: 20px auto;
+    border-radius: 50%;
+  }
+
+  .signin {
+    width: 100%;
+  }
+}

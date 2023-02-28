@@ -9,48 +9,20 @@
     {{-- Font Inter --}}
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-      * {
-        font-family: 'Inter', sans-serif;
-      }
-      .bg-form {
-        background-color: #ADD0FF;
-      }
-      .bg-faq {
-        background-color: #549DFF;
-      }
-      .bg-aduan {
-        background-color: #ADD0FF;
-      }
-      .bg-prosedur {
-        background-color: #1976D2;
-      }
-      .bg-footer{
-        background-color: #7DB4FF;
-      }
-      .btn-blue {
-        background-color: #7DB4FF;
-      }
-      .btn-blue:hover {
-        background-color: #6c9cdf;
-      }
-      .activenav {
-        font-weight: 800;
-        color: black;
-        border-bottom: 1px solid #000;
-        padding-bottom: 1px;
-        max-width: 150px;
-      }
-    </style>
+    
+    {{-- Custom CSS --}}
+    <link rel="stylesheet" href="../../assets/css/landing.css">
+    {{-- ReCaptcha Google --}}
     {!! ReCaptcha::htmlScriptTagJsApi() !!}
   </head>
   <body>
+    {{-- Load Navbar --}}
     @include('landing/layout/navbar')
 
-    {{-- <div class="container mt-3 mb-5"> --}}
+    {{-- Load Content --}}
     @yield('content')
-    {{-- </div> --}}
 
+    {{-- Load Footer --}}
     @include('landing/layout/footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

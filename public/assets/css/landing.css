@@ -1,0 +1,31 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+.bg-form {
+  background-color: #ADD0FF;
+}
+.bg-faq {
+  background-color: #549DFF;
+}
+.bg-aduan {
+  background-color: #ADD0FF;
+}
+.bg-prosedur {
+  background-color: #1976D2;
+}
+.bg-footer{
+  background-color: #7DB4FF;
+}
+.btn-blue {
+  background-color: #7DB4FF;
+}
+.btn-blue:hover {
+  background-color: #6c9cdf;
+}
+.activenav {
+  font-weight: 800;
+  color: black;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  max-width: 150px;
+}

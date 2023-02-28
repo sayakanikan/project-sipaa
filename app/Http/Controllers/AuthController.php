@@ -7,12 +7,14 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+    // Tampil halaman login
     public function index(){
         return view('dashboard/auth/login', [
             'title' => 'Login',
         ]);
     }
 
+    // Verifikasi login
     public function authenticate(Request $request){
         $credentials = $request->validate([
             'email'     => 'required|email:dns',
@@ -24,8 +26,11 @@ class AuthController extends Controller
 
             return redirect('/dashboard');
         }
+
+        return back()->with('loginError', 'Username atau password anda salah');
     }
 
+    // Logout
     public function logout(Request $request){
         Auth::logout();
         $request->session()->invalidate();

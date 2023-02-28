@@ -1,0 +1,43 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+.bg-navbar {
+  background-color: #7DB4FF;
+}
+.btn-bell {
+  background-color: #7DB4FF;
+  border: none;
+}
+.line {
+  border-left: 2px solid black;
+  height: 45px;
+}
+.active-sidebar {
+  background-color: #7DB4FF;
+  font-weight: 600;
+}
+.sidebarpage {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.5s ease;
+}
+.sidebarpage:hover {
+  background-color: #7DB4FF;
+}
+.bg-content {
+  background: linear-gradient(0deg, #F0F3F1, #F0F3F1);
+}
+.btn-lainya {
+  background-color: #7DB4FF;
+  border: none;
+}
+.btn-lainya:hover {
+  background-color: #73a2e4;
+}
+.btn-hapus {
+  background-color: #B8B8B8;
+  border: none;
+}
+.btn-hapus:hover {
+  background-color: #8a8a8a;
+}

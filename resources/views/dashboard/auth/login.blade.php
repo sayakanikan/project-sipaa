@@ -6,28 +6,26 @@
     <title>Dashboard SIPAA | {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    {{-- ReCaptcha Google --}}
     {!! ReCaptcha::htmlScriptTagJsApi() !!}
-    <style>
-      .bg-main {
-        background-color: #ADD0FF;
-      }
-
-      input.cekbox {
-        width: 40px;
-        height: 30px;
-        right: 0px;
-        opacity: 0;
-      }
-    </style>
+    
+    {{-- Custom CSS --}}
+    <link rel="stylesheet" href="../../assets/css/login.css">
   </head>
   <body>
-    <div class="bg-main vw-100 vh-100 d-flex align-items-center position-relative" style="overflow: hidden;">
-      <img src="./assets/images/admin/bg_white.png" alt="Vector" class="position-relative" style="width: 50%; left: -30px;">
-      <img src="./assets/images/admin/logoLogin.png" alt="Logo" class="position-absolute" style="width: 25%; left:2vw;">
+    <div class="bg-main vw-100 vh-100 align-items-center position-relative">
+      <img src="./assets/images/admin/bg_white.png" alt="Vector" class="img-vector">
+      <img src="./assets/images/admin/logoLogin.png" alt="Logo" class="logo-login">
       <div class="">
         <h3 class="mb-5">LOGIN</h3>
+        {{-- Alert jika login gagal --}}
+        @if (session()->has('loginError'))
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          {{ session('loginError') }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
         <p class="fw-semibold">Masukkan email dan password Anda dengan benar</p>
-
         <form action="/authenticate" method="POST">
           @csrf
           <div class="mb-3 input-group flex-nowrap">
@@ -54,11 +52,12 @@
             @enderror
           </div>
   
+          {{-- Verifikasi saya bukan robot --}}
           <div class="form-group row">
             <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
           </div>
   
-          <button type="submit" class="btn btn-primary mt-3 px-5 fw-semibold">Sign In</button>
+          <button type="submit" class="btn btn-primary mt-3 px-5 fw-semibold signin">Sign In</button>
         </form>
       </div>
     </div>
