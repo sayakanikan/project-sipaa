@@ -18,12 +18,14 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        {{-- Load Sidobar --}}
-        @include('dashboard/layouts/sidebar')
-        <div class="col-md-9 px-0">
+        <div class="sidebar py-3 d-flex justify-content-center vh-100">
+          {{-- Load Sidebar --}}
+          @include('dashboard/layouts/sidebar')
+        </div>
+        <div class="content px-0">
           {{-- Load Navbar --}}
           @include('dashboard/layouts/navbar')
-          <div class="w-100 bg-content container px-5 py-5" style="min-height: 82.8%;">
+          <div class="w-100 bg-content container px-4 py-5" style="min-height: 82.8%;">
             {{-- Load Content --}}
             @yield('content')
           </div>

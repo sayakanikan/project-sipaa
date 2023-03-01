@@ -3,7 +3,7 @@
     <form class="d-flex" role="search">
       <div class="input-group flex-nowrap">
         <span class="input-group-text" id="addon-wrapping"><i class="bi bi-search"></i></span>
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 300px;" aria-describedby="addon-wrapping">
+        <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping">
       </div>
     </form>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

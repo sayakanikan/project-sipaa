@@ -1,10 +1,10 @@
 @extends('dashboard/layouts/main')
 @section('content')
-  <h3 class="mb-4">Dashboard</h3>
+  <h3 class="mb-3">Dashboard</h3>
 
   {{-- Totalan --}}
   <div class="row">
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-4 align-items-center mt-3">
       <div class="card border-0" style="min-width: 270px">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Laporan Masuk</h6>
@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-4 align-items-center mt-3">
       <div class="card border-0" style="min-width: 270px">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Status Tindakan Diterima</h6>
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mt-3">
       <div class="card border-0" style="min-width: 270px">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Status Tindakan Ditolak</h6>
@@ -178,13 +178,10 @@
   
 <script type="text/javascript">
   
-    var labels =  {{ Js::from($labels) }};
-    var users =  {{ Js::from($data) }};
-  
     const data = {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Ags', 'Sep', 'Okt', 'Nov', 'Des'],
         datasets: [{
-            label: 'My First dataset',
+            label: 'Jumlah Laporan Masuk',
             backgroundColor: '#A6CEE3CC',
             borderColor: '#A6CEE3CC',
             data: [10, 15, 20, 24, 20, 15, 20, 14, 23, 18, 20, 13 ],

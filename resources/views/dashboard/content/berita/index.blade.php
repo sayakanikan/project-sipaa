@@ -1,8 +1,8 @@
 @extends('dashboard/layouts/main')
 @section('content')
   <a href="/berita/create" class="btn btn-primary"><i class="bi bi-plus-lg"></i>&nbsp; Tambahkan Berita Terkini</a>
-  <div class="row mt-4">
-    <div class="col-md-4">
+  <div class="row">
+    <div class="col-md-4 mt-4">
       <div class="card px-1 py-2 border-0" >
         <div class="card-body">
           <img src="../assets/images/landing/heading.png" alt="Gambar berita" class="mw-100 rounded-2">
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mt-4">
       <div class="card px-1 py-2 border-0" >
         <div class="card-body">
           <img src="../assets/images/landing/heading.png" alt="Gambar berita" class="mw-100 rounded-2">
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mt-4">
       <div class="card px-1 py-2 border-0" >
         <div class="card-body">
           <img src="../assets/images/landing/heading.png" alt="Gambar berita" class="mw-100 rounded-2">

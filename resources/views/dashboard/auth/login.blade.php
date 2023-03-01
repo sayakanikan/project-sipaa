@@ -53,8 +53,10 @@
           </div>
   
           {{-- Verifikasi saya bukan robot --}}
-          <div class="form-group row">
-            <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
+          <div class="d-flex">
+            <div class="form-group row mx-auto">
+              <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
+            </div>
           </div>
   
           <button type="submit" class="btn btn-primary mt-3 px-5 fw-semibold signin">Sign In</button>
