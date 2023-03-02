@@ -2,7 +2,7 @@
 @section('content')
 <div class="container mt-3 mb-5 px-3">
   <div class="text-center mb-3">
-    <h1>Tentang SIPAA</h1>
+    <h1 class="mb-4">Tentang SIPAA</h1>
   </div>
   <p style="text-align: justify">
     <b>SIPAA</b> adalah singkatan dari Sistem Informasi dan Pengaduan Wanita dan Anak di Banyumas. <b>SIPAA</b> merupakan sebuah wadah yang digunakan dalam menampung segala aduan kasus yang dialami bagi wanita dan anak agar dapat mewujudkan bersama untuk Indonesia yang aman dan nyaman bagi siapa pun. Aplikasi ini diawasi dan dikontrol oleh <b>Unit Pelaksanaan Teknis Daerah Perlindungan Perempuan dan Anak Kabupaten Banyumas (UPTD PPA Kabupaten Banyumas)</b> dan <b>Dinas Pengendalian Penduduk dan Keluarga Berencana, Pemberdayaan Perempuan dan Perlindungan Anak Kabupaten Banyumas (DPPKBP3A Kabupaten Banyumas)</b>. Melalui aplikasi ini, kami ingin berbagi dan menyebarkan informasi mengenai tindakan dan pencegahan dalam menghadapi adanya kasus kekerasan dan pelecehan yang kerap terjadi terutama di Kabupaten Banyumas. Kami memiliki unit yang akan siap merespon Anda selama 24 jam dan membangun layanan untuk memberi kebutuhan bagi Anda agar bisa lebih dekat, lebih bisa mengontrol kinerja kami dan mampu memberi saran dan masukan bagi pengembangan kami dimasa depan.

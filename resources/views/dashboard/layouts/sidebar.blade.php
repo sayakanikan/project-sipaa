@@ -1,7 +1,7 @@
 {{-- Sidebar --}}
 <div class="w-100 padding-sidebar">
   <img src="../../assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="250px" class="mw-100 logoBesar">
-  <img src="../../assets/images/admin/logoLogin.png" alt="Logo kecil" class="mw-100 rounded-pill logoKecil">
+  <img src="../../assets/images/admin/logoBunder.png" alt="Logo kecil" class="mw-100 rounded-pill logoKecil">
   <hr class="border-4">
   <a href="/dashboard" class="{{ Request::is('dashboard*') ? 'active-sidebar' : '' }} padding-items-sidebar py-3 mt-5 rounded-4 d-flex sidebarpage">
     <i class="bi bi-grid-3x3-gap-fill"></i>

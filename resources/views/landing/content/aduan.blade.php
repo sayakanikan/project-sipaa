@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h4 class="fw-bold mb-4">Data Pelapor</h4>
+        <h3 class="fw-bold mb-4">Data Pelapor</h3>
         <div class="col-12 mb-3">
           <label for="name" class="form-label">Nama Pelapor *</label>
           <input type="text" class="form-control" name="namaPelapor" id="name" required>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h4 class="fw-bold mb-4">Data Korban</h4>
+        <h3 class="fw-bold mb-4">Data Korban</h3>
         <div class="col-12 mb-3">
           <label for="name" class="form-label">Nama Korban *</label>
           <input type="text" class="form-control" name="namaKorban" id="name" required>
