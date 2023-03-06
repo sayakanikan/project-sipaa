@@ -65,6 +65,21 @@
 .search-icon {
   display: block;
 }
+.btn-primary {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  .btn-primary {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .btn-primary {
+    font-size: 0.7rem;
+  }
+}
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .sidebar {
@@ -100,5 +115,8 @@
   }
   .namaNav {
     display: none;
+  }
+  .btn-primary {
+    font-size: 0.9rem;
   }
 }

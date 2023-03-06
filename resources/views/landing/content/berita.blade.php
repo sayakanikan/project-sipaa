@@ -1,6 +1,7 @@
 @extends('landing/layout/main')
 @section('content')
 <div class="container mt-3 mb-5">
+  <a href="/" class="btn text-muted mb-3">Kembali</a>
   <h2 class="text-center mx-5">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</h2>
   <p class="text-muted text-center">Kabupaten Banyumas | 27 Juli 2022</p>
   <div class="d-flex mb-4">

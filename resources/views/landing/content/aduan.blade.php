@@ -9,7 +9,8 @@
     </a>
   </div>
   <div class="bg-aduan rounded-4 px-4 py-5">
-    <form class="row g-3 fw-semibold">
+    <form class="row g-3 fw-semibold" action="" method="POST">
+      @csrf
       <div class="row px-1 mb-3 mt-2">
         <label for="subjek" class="col-sm-1 col-form-label">Subjek :</label>
         <div class="col-sm-11">
@@ -129,7 +130,7 @@
       </div>
       <div class="d-grid d-md-block gap-2">
         <button class="btn btn-primary px-4 fw-medium" type="submit">Submit</button>
-        <a href="/" class="btn btn-light px-4 fw-medium" type="submit">Cancel</a>
+        <a href="/" class="btn btn-light px-4 btn-cancel fw-medium" type="submit">Cancel</a>
       </div>
     </form>
   </div>

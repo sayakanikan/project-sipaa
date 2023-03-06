@@ -23,6 +23,10 @@ input.cekbox {
   left:2vw;
 }
 
+.recaptcha {
+  margin-left: -10px;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .bg-main {
     display: block;
@@ -44,5 +48,9 @@ input.cekbox {
 
   .signin {
     width: 100%;
+  }
+
+  .recaptcha {
+    margin: auto;
   }
 }

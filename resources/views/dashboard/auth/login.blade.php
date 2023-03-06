@@ -54,7 +54,7 @@
   
           {{-- Verifikasi saya bukan robot --}}
           <div class="d-flex">
-            <div class="form-group row mx-auto">
+            <div class="form-group row recaptcha">
               <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
             </div>
           </div>

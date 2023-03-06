@@ -13,7 +13,7 @@
       <a href="/aduan" class="btn btn-blue fw-semibold text-dark rounded-pill px-5 fs-5 mb-3">Laporkan</a>
     </div>
     <div class="col-md-7 position-relative">
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="d-flex">
+      <a href="https://www.youtube.com/watch?v=B7pdkyeOZok&feature=youtu.be&ab_channel=InstituteforCriminalJusticeReform" target="_blank" class="d-flex">
         <img src="./assets/images/landing/youtube.png" alt="Thumbnail" class="mw-100 mh-100">
         <img src="./assets/images/landing/logoYtb.png" alt="Logo Youtube" class="position-absolute" style="left: 50%; top: 50%; transform: translate(-50%, -50%);">
       </a>
