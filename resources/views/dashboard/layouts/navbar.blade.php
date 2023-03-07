@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-navbar h-100 px-4" style="max-height: 120px">
+<nav class="navbar navbar-expand-lg bg-navbar h-100 px-4" style="max-height: 100px">
   <div class="container-fluid">
     <form class="d-flex search-bar" role="search">
       <div class="input-group flex-nowrap">

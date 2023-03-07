@@ -3,19 +3,19 @@
 <div class="container mt-3 mb-5">
   <div class="text-center mb-5">
     <h1 class="mb-3 fw-semibold">Website Pengaduan Wanita dan Anak Kabupaten Banyumas</h1>
-    <h4 class="fw-medium">Sampaikan aduan atas kasus yang Anda Alami untuk Diri Sendiri dan Demi Mengurangi Angka Kasus Kekerasan dan Pelecehan di Kabupaten Banyumas</h4>
+    <h4 class="fw-normal">Sampaikan aduan atas kasus yang Anda Alami untuk Diri Sendiri dan Demi Mengurangi Angka Kasus Kekerasan dan Pelecehan di Kabupaten Banyumas</h4>
   </div>
-  <div class="row mb-5">
+  <div class="row mb-5 d-flex align-items-center">
     <div class="col-md-5">
       <h2 class="fw-semibold">Jadilah Bagian dari <br> Pelindung Wanita dan Anak <br> <span class="text-primary">#PeduliWanitadanAnak</span></h2>
-      <p class="fw-medium fs-5" style="text-align: justify">Hargai setiap pribadi yang ada dan lindungi orang di sekitar kita terutama wanita dan anak, karena kita semua berharga.</p>
-      <p class="fw-medium fs-5" style="text-align: justify">Berani laporkan jika Anda atau orang disekitar Anda terindikasi mengalami kekerasan maupun pelecehan.</p>
-      <a href="/aduan" class="btn btn-blue fw-semibold text-dark rounded-pill px-5 fs-5 mb-3">Laporkan</a>
+      <p class="fw-normal font-awal" style="text-align: justify">Hargai setiap pribadi yang ada dan lindungi orang di sekitar kita terutama wanita dan anak, karena kita semua berharga.</p>
+      <p class="fw-normal font-awal" style="text-align: justify">Berani laporkan jika Anda atau orang disekitar Anda terindikasi mengalami kekerasan maupun pelecehan.</p>
+      <a href="/aduan" class="btn btn-blue fw-semibold text-dark rounded-pill px-5 font-awal mb-3">Laporkan</a>
     </div>
     <div class="col-md-7 position-relative">
       <a href="https://www.youtube.com/watch?v=B7pdkyeOZok&feature=youtu.be&ab_channel=InstituteforCriminalJusticeReform" target="_blank" class="d-flex">
         <img src="./assets/images/landing/youtube.png" alt="Thumbnail" class="mw-100 mh-100">
-        <img src="./assets/images/landing/logoYtb.png" alt="Logo Youtube" class="position-absolute" style="left: 50%; top: 50%; transform: translate(-50%, -50%);">
+        <img src="./assets/images/landing/logoYtb.png" alt="Logo Youtube" class="position-absolute" style="left: 50%; top: 50%; transform: translate(-50%, -50%); width: 150px">
       </a>
     </div>
   </div>

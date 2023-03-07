@@ -25,11 +25,11 @@
                   <td>Gilang</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
-                  <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
+                  <td><a href="/tindakan/email" class="btn btn-primary mt-1">Kirim Email</a></td>
                 </tr>
                 <tr>
                   <td>01-09-2022</td>
@@ -38,11 +38,11 @@
                   <td>Sumina</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
-                  <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
+                  <td><a href="/tindakan/email" class="btn btn-primary mt-1">Kirim Email</a></td>
                 </tr>
                 <tr>
                   <td>22-10-2022</td>
@@ -51,11 +51,11 @@
                   <td>Adhe Nuzula</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
-                  <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
+                  <td><a href="/tindakan/email" class="btn btn-primary mt-1">Kirim Email</a></td>
                 </tr>
                 <tr>
                   <td>15-09-2022</td>
@@ -64,11 +64,11 @@
                   <td>Gilang</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
-                  <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
+                  <td><a href="/tindakan/email" class="btn btn-primary mt-1">Kirim Email</a></td>
                 </tr>
                 <tr>
                   <td>01-09-2022</td>
@@ -77,11 +77,11 @@
                   <td>Sumina</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
-                  <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
+                  <td><a href="/tindakan/email" class="btn btn-primary mt-1">Kirim Email</a></td>
                 </tr>
                 <tr>
                   <td>22-10-2022</td>
@@ -90,11 +90,11 @@
                   <td>Adhe Nuzula</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
-                  <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
+                  <td><a href="/tindakan/email" class="btn btn-primary mt-1">Kirim Email</a></td>
                 </tr>
               </tbody>
             </table>

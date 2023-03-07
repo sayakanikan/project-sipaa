@@ -9,8 +9,8 @@
           <p class="text-muted my-2" style="font-size: 14px;">Kabupaten Banyumas | 27 Juli 2022</p>
           <p class="card-title">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</p>
           <div class="d-flex justify-content-between mt-3">
-            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Edit</a>
-            <button class="btn btn-hapus rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Hapus</button>
+            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Edit</a>
+            <button class="btn btn-hapus rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Hapus</button>
           </div>
         </div>
       </div>
@@ -22,8 +22,8 @@
           <p class="text-muted my-2" style="font-size: 14px;">Kabupaten Banyumas | 27 Juli 2022</p>
           <p class="card-title">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</p>
           <div class="d-flex justify-content-between mt-3">
-            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Edit</a>
-            <button class="btn btn-hapus rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Hapus</button>
+            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Edit</a>
+            <button class="btn btn-hapus rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Hapus</button>
           </div>
         </div>
       </div>
@@ -35,8 +35,8 @@
           <p class="text-muted my-2" style="font-size: 14px;">Kabupaten Banyumas | 27 Juli 2022</p>
           <p class="card-title">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</p>
           <div class="d-flex justify-content-between mt-3">
-            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Edit</a>
-            <button class="btn btn-hapus rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Hapus</button>
+            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Edit</a>
+            <button class="btn btn-hapus rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Hapus</button>
           </div>
         </div>
       </div>
@@ -48,8 +48,8 @@
           <p class="text-muted my-2" style="font-size: 14px;">Kabupaten Banyumas | 27 Juli 2022</p>
           <p class="card-title">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</p>
           <div class="d-flex justify-content-between mt-3">
-            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Edit</a>
-            <button class="btn btn-hapus rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Hapus</button>
+            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Edit</a>
+            <button class="btn btn-hapus rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Hapus</button>
           </div>
         </div>
       </div>
@@ -61,8 +61,8 @@
           <p class="text-muted my-2" style="font-size: 14px;">Kabupaten Banyumas | 27 Juli 2022</p>
           <p class="card-title">Berpihak pada Dunia Anak, Pemprov Jateng Luncurkan “Flexi Time” dan “Jogo Konco”</p>
           <div class="d-flex justify-content-between mt-3">
-            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Edit</a>
-            <button class="btn btn-hapus rounded-pill fw-semibold" style="padding-right: 30px; padding-left: 30px">Hapus</button>
+            <a href="/berita/edit" class="btn btn-lainya rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Edit</a>
+            <button class="btn btn-hapus rounded-pill fw-medium" style="font-size: 14px; padding-right: 25px; padding-left: 25px">Hapus</button>
           </div>
         </div>
       </div>

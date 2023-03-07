@@ -1,9 +1,9 @@
 {{-- Sidebar --}}
 <div class="w-100 padding-sidebar">
-  <img src="../../assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="250px" class="mw-100 logoBesar">
+  <img src="../../assets/images/admin/logoSidebar.png" alt="Logo sidebar" width="200px" class="mw-100 logoBesar">
   <img src="../../assets/images/admin/logoBunder.png" alt="Logo kecil" class="mw-100 rounded-pill logoKecil">
   <hr class="border-4">
-  <a href="/dashboard" class="{{ Request::is('dashboard*') ? 'active-sidebar' : '' }} padding-items-sidebar py-3 mt-5 rounded-4 d-flex sidebarpage">
+  <a href="/dashboard" class="{{ Request::is('dashboard*') ? 'active-sidebar' : '' }} padding-items-sidebar py-3 mt-4 rounded-4 d-flex sidebarpage">
     <i class="bi bi-grid-3x3-gap-fill"></i>
     <p class="mb-0 ms-3 text-sidebar">Dashboard</p>
   </a>

@@ -68,16 +68,25 @@
 .btn-primary {
   font-size: 1rem;
 }
+.btn-tindakan {
+  padding: 3px 7px;
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
   .btn-primary {
     font-size: 0.8rem;
+  }
+  .btn-tindakan {
+    padding: 0 5px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .btn-primary {
     font-size: 0.7rem;
+  }
+  .btn-tindakan {
+    padding: 0 5px;
   }
 }
 
@@ -102,7 +111,7 @@
   }
   .logoKecil {
     display: block;
-    margin: 23px 0;
+    margin: 10px 0;
   }
   .logoBesar {
     display: none;

@@ -25,7 +25,7 @@
         <div class="content px-0">
           {{-- Load Navbar --}}
           @include('dashboard/layouts/navbar')
-          <div class="w-100 bg-content container px-4 py-5" style="min-height: 82.8%;">
+          <div class="w-100 bg-content container px-4 py-4" style="min-height: 82.8%;">
             {{-- Load Content --}}
             @yield('content')
           </div>

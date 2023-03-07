@@ -5,11 +5,11 @@
   {{-- Totalan --}}
   <div class="row">
     <div class="col-md-4 align-items-center mt-3">
-      <div class="card border-0" style="min-width: 270px">
+      <div class="card border-0" style="min-width: 100%">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Laporan Masuk</h6>
           <div class="d-flex justify-content-between">
-            <h4 class="card-title">116 Kasus</h4>
+            <h5 class="card-title">116 Kasus</h5>
             <img src="./assets/images/admin/dashboard_laporan.png" alt="Icon laporan" class="position-absolute" style="right: 13px;">
           </div>
           <p class="card-text fs-6">Jumlah kasus naik dari <br> tahun kemarin</p>
@@ -17,11 +17,11 @@
       </div>
     </div>
     <div class="col-md-4 align-items-center mt-3">
-      <div class="card border-0" style="min-width: 270px">
+      <div class="card border-0" style="min-width: 100%">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Status Tindakan Diterima</h6>
           <div class="d-flex justify-content-between">
-            <h4 class="card-title">116 Kasus</h4>
+            <h5 class="card-title">116 Kasus</h5>
             <img src="./assets/images/admin/dashboard_diterima.png" alt="Icon Diterima" class="position-absolute" style="right: 13px;">
           </div>
           <p class="card-text fs-6">Jumlah kasus naik dari <br> tahun kemarin</p>
@@ -29,11 +29,11 @@
       </div>
     </div>
     <div class="col-md-4 mt-3">
-      <div class="card border-0" style="min-width: 270px">
+      <div class="card border-0" style="min-width: 100%">
         <div class="card-body">
           <h6 class="card-subtitle mb-2 fs-6 text-muted">Total Status Tindakan Ditolak</h6>
           <div class="d-flex justify-content-between">
-            <h4 class="card-title">0 Kasus</h4>
+            <h5 class="card-title">0 Kasus</h5>
             <img src="./assets/images/admin/dashboard_ditolak.png" alt="Icon Ditolak" class="position-absolute" style="right: 13px;">
           </div>
           <p class="card-text fs-6">Jumlah kasus naik dari <br> tahun kemarin</p>
@@ -132,8 +132,8 @@
                   <td>Gilang</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
                   <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
@@ -145,8 +145,8 @@
                   <td>Sumina</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
                   <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
@@ -158,8 +158,8 @@
                   <td>Adhe Nuzula</td>
                   <td>
                     <div class="d-flex align-items-center my-2">
-                      <button class="btn btn-success me-2 px-1 py-1"><i class="bi bi-check"></i></button>
-                      <button class="btn btn-danger px-1 py-1"><i class="bi bi-x"></i></button>
+                      <button class="btn btn-success me-2 btn-tindakan"><i class="bi bi-check"></i></button>
+                      <button class="btn btn-danger btn-tindakan"><i class="bi bi-x"></i></button>
                     </div>
                   </td>
                   <td><a href="/tindakan/email" class="btn btn-primary">Kirim Email</a></td>
